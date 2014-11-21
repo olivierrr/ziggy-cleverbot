@@ -10,7 +10,7 @@ module.exports = function(ziggy, settings) {
     if(reg.test(message)) {
       var toWrite =  message.replace(reg, ' ').split(/\s+/).join(' ')
       bot.write(toWrite,  function (resp) {
-        ziggy.say(channel, user.nick + ': ' resp.message)
+        ziggy.say(channel, user.nick + ': ' + resp.message)
       })
     }
   })

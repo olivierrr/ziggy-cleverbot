@@ -1,0 +1,26 @@
+{
+  "name": "ziggy-cleverbot",
+  "version": "1.0.0",
+  "description": "cleverbot plugin for ziggy irc",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:olivierrr/ziggy-cleverbot.git"
+  },
+  "keywords": [
+    "ziggy",
+    "irc",
+    "clever",
+    "bot",
+    "cleverbot"
+  ],
+  "author": "olivierrr",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/olivierrr/ziggy-cleverbot/issues"
+  },
+  "homepage": "https://github.com/olivierrr/ziggy-cleverbot",
+  "dependencies": {
+    "cleverbot-node": "^0.1.8"
+  }
+}

@@ -1,6 +1,6 @@
 {
   "name": "ziggy-cleverbot",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "cleverbot plugin for ziggy irc",
   "main": "index.js",
   "repository": {

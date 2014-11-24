@@ -1,8 +1,8 @@
-
 var cleverBot = require('cleverbot-node')
 
-module.exports = function(ziggy, settings) {
+module.exports = function(ziggy, _settings) {
   var bot = new cleverBot()
+  var settings = _settings || {}
 
   ziggy.on('message', function (user, channel, message) {
     var reg = new RegExp(settings.botnick || ziggy.settings.nickname)
